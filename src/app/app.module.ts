@@ -29,7 +29,7 @@ const ROUTES = [
     BrowserModule,
     FormsModule,
     HttpModule,
-    RouterModule.forRoot(ROUTES)
+    RouterModule.forRoot(ROUTES) // Add rotues to the app
   ],
   providers: [],
   bootstrap: [AppComponent]
